@@ -31,8 +31,8 @@ spec:
         app: nodeapp 
     spec:
       containers:
-      - name: sahilvandra
-        image: sahilvandra/nodeapp
+      - name: nodeserver
+        image: thetips4you/nodeapp:latest
         ports:
         - containerPort: 3000
   
